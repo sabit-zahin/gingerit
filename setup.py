@@ -15,7 +15,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
-    "requests==2.18.4"
+    "requests>=2.18.4"
 ]
 
 test_requirements = [
